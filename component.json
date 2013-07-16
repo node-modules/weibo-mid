@@ -1,0 +1,17 @@
+{
+  "name": "weibo-mid",
+  "repo": "fengmk2/weibo-mid",
+  "description": "Convert [Weibo Open API](http://open.weibo.com) mid to base62 hash string.",
+  "version": "0.0.1",
+  "keywords": [
+    "weibo-mid", "weibo", "mid", "base62"
+  ],
+  "dependencies": {
+  },
+  "development": {
+    "chaijs/chai": "*"
+  },
+  "main": "index.js",
+  "scripts": ["index.js", "lib/mid.js"],
+  "license": "MIT"
+}

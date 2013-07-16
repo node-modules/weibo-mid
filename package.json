@@ -24,7 +24,9 @@
     "travis-cov": "*",
     "coveralls": "*",
     "mocha-lcov-reporter": "*",
-    "mocha": "*"
+    "mocha": "*",
+    "component": "*",
+    "mocha-phantomjs": "*"
   },
   "repository": {
     "type": "git",

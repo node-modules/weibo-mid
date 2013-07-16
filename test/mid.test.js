@@ -10,8 +10,14 @@
  * Module dependencies.
  */
 
-var mid = require('../');
-var should = require('should');
+try {
+  var mid = require('../');
+  var should = require('should');
+} catch (e) {
+  // component
+  var mid = require('weibo-mid');
+  var should = require('chai').should();
+}
 
 describe('mid.test.js', function () {
   var expects = [
