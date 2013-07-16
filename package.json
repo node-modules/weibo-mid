@@ -6,13 +6,13 @@
   "scripts": {
     "test": "make test-all",
     "blanket": { 
-      "pattern": "//^((?!(node_modules|test)).)*$/",
+      "pattern": "weibo-mid/lib",
       "data-cover-flags": {
         "debug": false
       }
     },
     "travis-cov": {
-      "threshold": 90
+      "threshold": 100
     }
   },
   "dependencies": {

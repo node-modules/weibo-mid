@@ -31,6 +31,8 @@ describe('mid.test.js', function () {
     expects.forEach(function (item) {
       mid.encode(item[0]).should.equal(item[1]);
     });
+
+    mid.encode('foo').should.equal('foo');
   });
 
   it('should decode success', function () {
