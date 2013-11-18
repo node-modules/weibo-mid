@@ -1,6 +1,8 @@
 weibo-mid [![Build Status](https://secure.travis-ci.org/fengmk2/weibo-mid.png)](http://travis-ci.org/fengmk2/weibo-mid) [![Coverage Status](https://coveralls.io/repos/fengmk2/weibo-mid/badge.png)](https://coveralls.io/r/fengmk2/weibo-mid)
 =======
 
+[![NPM](https://nodei.co/npm/weibo-mid.png?downloads=true&stars=true)](https://nodei.co/npm/weibo-mid/)
+
 ![logo](https://raw.github.com/fengmk2/weibo-mid/master/logo.png)
 
 Convert [Weibo Open API](http://open.weibo.com) mid to base62 hash string.
@@ -20,7 +22,7 @@ mid.encode('3600375418559878').should.equal('A09LvzUOy');
 mid.decode('A09LvzUOy').should.equal('3600375418559878');
 ```
 
-## License 
+## License
 
 (The MIT License)
 
